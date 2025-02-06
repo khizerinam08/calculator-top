@@ -54,7 +54,7 @@ equal.addEventListener('click', () => {
                 operation = [];
                 return;
             }
-            result = num1 / num2;
+            result = (num1 / num2).toFixed(2);
         }
         else {
             result = num1 * num2;
